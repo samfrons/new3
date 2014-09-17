@@ -1,0 +1,119 @@
+h1 {
+	font-family: sans-serif;
+	color: green;
+	background: orange;
+}
+
+body {
+	font-family: sans-serif;
+	/*background: blue; */
+	background: red;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+div span {
+	background:red;
+}
+div > span {
+	background:green;
+}
+
+ul {
+	background: beige;
+}
+ul li {
+	
+	margin: 10px 20px 5px 25px;
+}
+li {
+	list-style-type: square;
+	font-size: 30px;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: green;
+	font-weight: 600;
+}
+
+a:active {
+	color: orange;
+}
+
+a:visited {
+	color: red;
+}
+
+.page {
+	border: 5px solid rgba(0,0,255,.7);
+	max-width: 600px;
+	margin: 0 auto;
+	width: 80%;
+	/*height: 400px; */
+	min-height: 600px;
+	background: rgba(0,0,255,.7);
+}
+
+p {
+color: orange;
+font-size: 50px;
+text-decoration: line-through;
+text-align: center;
+text-transform: uppercase;
+}
+/*
+.page:hover {
+	background: rgba(0,0,255,.2);
+}
+
+.page:active {
+	background: rgba(0,200,255,.5);
+}
+*/
+#unique-tag {
+	/*background: url(../images/vizsla.jpg); */
+	background-size: 100px;
+	background-repeat: repeat-y;
+
+}
+
+p.space {
+	line-height: 10px;
+}
+
+.space:hover {
+	line-height: 10px;
+}
+
+ul.red > li {
+	color: red;
+}
+
+.first-class {
+	color: white;
+	font-size: 20px;
+	border: 2px inset white;
+	width: 50%;
+	font-weight: 600;
+
+}
+
+.purple {
+	color: purple;
+
+}
+
+/*gadfgag 
+p, ul.red, .first-class, #unique-tag {
+	background: red;
+}
+
+*/
